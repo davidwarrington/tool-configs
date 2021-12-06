@@ -1,0 +1,10 @@
+{
+  "name": "@davidwarrington/tool-configs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "git@github.com:davidwarrington/tool-configs",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
