@@ -1,0 +1,14 @@
+{
+  "name": "@davidwarrington/stylelint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
