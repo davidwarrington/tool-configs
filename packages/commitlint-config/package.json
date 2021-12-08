@@ -3,6 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidwarrington/tool-configs",
+    "directory": "packages/commitlint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/davidwarrington/tool-configs/issues"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlintrc"
+  ],
   "dependencies": {
     "@commitlint/config-conventional": "^15.0.0"
   },
