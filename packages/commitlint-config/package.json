@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "@commitlint/config-conventional": "^15.0.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^15.0.0"
   }
 }
