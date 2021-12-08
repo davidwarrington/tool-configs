@@ -9,6 +9,7 @@
     "stylelint-prettier": "^2.0.0"
   },
   "peerDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "stylelint": "^14.1.0"
   }
 }
