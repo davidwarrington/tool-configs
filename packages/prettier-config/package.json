@@ -2,5 +2,8 @@
   "name": "@davidwarrington/prettier-config",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": "^2.5.1"
+  }
 }
