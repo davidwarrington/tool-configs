@@ -3,6 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidwarrington/tool-configs",
+    "directory": "packages/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/davidwarrington/tool-configs/issues"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintrc"
+  ],
   "dependencies": {
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
