@@ -3,9 +3,9 @@
 ## Installation
 Install with a package manager such as yarn or npm.
 ```bash
-yarn add --dev eslint prettier @davidwarrington/eslint-config
+yarn add --dev eslint eslint-plugin-import prettier @davidwarrington/eslint-config
 # or with npm
-npm install --save-dev eslint prettier @davidwarrington/eslint-config
+npm install --save-dev eslint eslint-plugin-import prettier @davidwarrington/eslint-config
 ```
 
 Create an ESLint config
