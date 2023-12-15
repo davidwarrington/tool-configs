@@ -9,7 +9,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.0.2",
+    "@commitlint/cli": "^18.4.3",
     "@davidwarrington/commitlint-config": "workspace:*",
     "@davidwarrington/eslint-config": "workspace:*",
     "@davidwarrington/prettier-config": "workspace:*",

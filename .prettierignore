@@ -1,1 +1,4 @@
 pnpm-lock.yaml
+
+# @todo remove
+commitlint.config.ts

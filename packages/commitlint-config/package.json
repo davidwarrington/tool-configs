@@ -2,6 +2,7 @@
   "name": "@davidwarrington/commitlint-config",
   "version": "1.1.0",
   "main": "index.js",
+  "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -16,9 +17,12 @@
     "commitlintrc"
   ],
   "dependencies": {
-    "@commitlint/config-conventional": "^16.0.0"
+    "@commitlint/config-conventional": "^18.4.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3"
   },
   "peerDependencies": {
-    "@commitlint/cli": "^16.0.2"
+    "@commitlint/cli": "^18.4.3"
   }
 }
