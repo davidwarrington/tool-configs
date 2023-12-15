@@ -4,6 +4,7 @@
   "license": "MIT",
   "repository": "git@github.com:davidwarrington/tool-configs",
   "private": true,
+  "type": "module",
   "scripts": {
     "lint": "eslint .",
     "prepare": "husky install"
@@ -13,8 +14,8 @@
     "@davidwarrington/commitlint-config": "workspace:*",
     "@davidwarrington/eslint-config": "workspace:*",
     "@davidwarrington/prettier-config": "workspace:*",
-    "eslint": "^8.4.1",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint": "^8.55.0",
+    "eslint-plugin-import": "^2.29.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
     "prettier": "^3.1.1"
