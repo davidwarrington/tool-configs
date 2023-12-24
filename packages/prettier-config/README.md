@@ -15,7 +15,9 @@ npm install --save-dev prettier @davidwarrington/prettier-config
 Then create your prettier config.
 
 ```js
-// .prettierrc.js
+// prettier.config.js
 
-module.exports = require('@davidwarrington/prettier-config');
+import config from '@davidwarrigton/prettier-config';
+
+export default config;
 ```

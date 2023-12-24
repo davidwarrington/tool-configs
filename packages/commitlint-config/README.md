@@ -14,10 +14,10 @@ npm install --save-dev @commitlint/cli @davidwarrington/commitlint-config
 
 Then create your commitlint config.
 
-```js
-// .commitlintrc.js
+```ts
+// commitlint.config.ts
 
-module.exports = {
+export default {
   extends: ['@davidwarrington'],
 };
 ```

@@ -15,9 +15,9 @@ npm install --save-dev stylelint @davidwarrington/stylelint-config
 Create an Stylelint config
 
 ```js
-// .stylelintrc.js
+// stylelint.config.js
 
-module.exports = {
+export default {
   extends: ['@davidwarrington/stylelint-config'],
 };
 ```
