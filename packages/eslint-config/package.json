@@ -1,7 +1,8 @@
 {
   "name": "@davidwarrington/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0-alpha.0",
   "main": "index.js",
+  "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -16,13 +17,12 @@
     "eslintrc"
   ],
   "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.1.0"
+    "@eslint/js": "9.0.0-alpha.0"
   },
   "devDependencies": {
-    "eslint": "^8.55.0"
+    "eslint": "9.0.0-alpha.0"
   },
   "peerDependencies": {
-    "eslint": "^8.55.0"
+    "eslint": "9.0.0-alpha.0"
   }
 }

@@ -5,19 +5,19 @@
 Install with a package manager such as pnpm, yarn or npm.
 
 ```bash
-pnpm add --save-dev eslint eslint-plugin-import @davidwarrington/eslint-config
+pnpm add --save-dev eslint @davidwarrington/eslint-config
 # or with yarn
-yarn add --dev eslint eslint-plugin-import @davidwarrington/eslint-config
+yarn add --dev eslint @davidwarrington/eslint-config
 # or with npm
-npm install --save-dev eslint eslint-plugin-import @davidwarrington/eslint-config
+npm install --save-dev eslint @davidwarrington/eslint-config
 ```
 
 Create an ESLint config
 
 ```js
-// .eslintrc.js
+// eslint.config.js
 
-module.exports = {
-  extends: ['@davidwarrington'],
-};
+import config from '@davidwarrington/eslint-config';
+
+export default [config];
 ```
