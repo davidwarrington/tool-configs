@@ -10,14 +10,14 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.3",
+    "@commitlint/cli": "^19.2.1",
     "@davidwarrington/commitlint-config": "workspace:*",
     "@davidwarrington/eslint-config": "workspace:*",
     "@davidwarrington/prettier-config": "workspace:*",
-    "eslint": "9.0.0-alpha.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.2.0",
-    "prettier": "^3.1.1"
+    "eslint": "9.0.0-beta.2",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5"
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --check",
