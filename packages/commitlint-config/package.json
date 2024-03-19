@@ -17,12 +17,12 @@
     "commitlintrc"
   ],
   "dependencies": {
-    "@commitlint/config-conventional": "^18.4.3"
+    "@commitlint/config-conventional": "^19.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.3"
+    "@commitlint/cli": "^19.2.1"
   },
   "peerDependencies": {
-    "@commitlint/cli": "^18.4.3"
+    "@commitlint/cli": "^19.2.1"
   }
 }
