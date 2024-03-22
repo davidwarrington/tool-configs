@@ -1,7 +1,8 @@
 {
   "name": "@davidwarrington/stylelint-config",
   "version": "2.0.1",
-  "main": "stylelint.config.js",
+  "main": "index.js",
+  "types": "index.d.ts",
   "type": "module",
   "license": "MIT",
   "repository": {
@@ -16,11 +17,16 @@
     "stylelint",
     "stylelintrc"
   ],
+  "scripts": {
+    "build": "rm -f index.d.ts && tsup",
+    "prepublishOnly": "pnpm build"
+  },
   "dependencies": {
     "stylelint-config-standard": "^36.0.0"
   },
   "devDependencies": {
-    "stylelint": "^16.2.1"
+    "stylelint": "^16.2.1",
+    "tsup": "^8.0.2"
   },
   "peerDependencies": {
     "stylelint": "^16.2.1"
