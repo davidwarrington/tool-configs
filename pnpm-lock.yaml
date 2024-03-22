@@ -70,6 +70,9 @@ importers:
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
+      tsup:
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.4.2)
 
   packages/stylelint-config:
     dependencies:
