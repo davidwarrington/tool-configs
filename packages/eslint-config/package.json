@@ -2,6 +2,7 @@
   "name": "@davidwarrington/eslint-config",
   "version": "2.0.0-alpha.0",
   "main": "index.js",
+  "types": "index.d.ts",
   "type": "module",
   "license": "MIT",
   "repository": {
@@ -16,11 +17,17 @@
     "eslint",
     "eslintrc"
   ],
+  "scripts": {
+    "build": "rm -f index.d.ts && tsup",
+    "prepublishOnly": "pnpm build"
+  },
   "dependencies": {
     "@eslint/js": "9.0.0-beta.2"
   },
   "devDependencies": {
-    "eslint": "9.0.0-beta.2"
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "9.0.0-beta.2",
+    "tsup": "^8.0.2"
   },
   "peerDependencies": {
     "eslint": "9.0.0-beta.2"
