@@ -2,6 +2,7 @@
   "name": "@davidwarrington/commitlint-config",
   "version": "2.0.0",
   "main": "index.js",
+  "types": "index.d.ts",
   "type": "module",
   "license": "MIT",
   "repository": {
@@ -16,11 +17,17 @@
     "commitlint",
     "commitlintrc"
   ],
+  "scripts": {
+    "build": "rm -f index.d.ts && tsup",
+    "prepublishOnly": "pnpm build"
+  },
   "dependencies": {
     "@commitlint/config-conventional": "^19.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.2.1"
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/types": "^19.0.3",
+    "tsup": "^8.0.2"
   },
   "peerDependencies": {
     "@commitlint/cli": "^19.2.1"
