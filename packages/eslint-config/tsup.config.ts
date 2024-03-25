@@ -1,15 +1,9 @@
 import { defineConfig } from 'tsup';
 
 export default defineConfig({
-  dts: {
-    compilerOptions: {
-      allowJs: true,
-      module: 'esnext',
-      moduleResolution: 'bundler',
-    },
-    only: true,
-  },
-  entry: ['./index.js'],
+  clean: true,
+  dts: true,
+  entry: ['./src/index.ts'],
   format: ['esm'],
-  outDir: '.',
+  tsconfig: './tsconfig.build.json',
 });

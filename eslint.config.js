@@ -1,3 +1,5 @@
-import config from '@davidwarrington/eslint-config';
+// @ts-check
 
-export default config;
+import { configs } from '@davidwarrington/eslint-config';
+
+export default configs.typescript;
