@@ -8,7 +8,7 @@ import base from '../';
 const config = {
   extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier-scss'],
 
-  rules: base.rules['declaration-block-no-redundant-longhand-properties'],
+  rules: base.rules,
 };
 
 export default config;
