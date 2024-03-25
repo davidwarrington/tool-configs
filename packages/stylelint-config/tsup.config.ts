@@ -9,7 +9,7 @@ export default defineConfig({
     },
     only: true,
   },
-  entry: ['./index.js'],
+  entry: ['./index.js', './scss/index.js'],
   format: ['esm'],
   outDir: '.',
 });
