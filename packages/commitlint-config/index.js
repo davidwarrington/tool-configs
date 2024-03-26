@@ -1,3 +1,1 @@
-import config from './commitlint.config.js';
-
-export default config;
+export { default } from './commitlint.config.js';
