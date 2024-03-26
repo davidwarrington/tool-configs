@@ -1,6 +1,6 @@
 // @ts-check
 
-import base from '../';
+import base from '../index.js';
 
 /** @typedef {import('stylelint').Config} Config */
 
