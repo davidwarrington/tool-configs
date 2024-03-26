@@ -1,3 +1,1 @@
-import config from '@davidwarrington/commitlint-config';
-
-export default config;
+export { default } from '@davidwarrington/commitlint-config';
