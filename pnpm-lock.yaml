@@ -32,6 +32,9 @@ importers:
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
+      typescript-eslint:
+        specifier: ^7.4.0
+        version: 7.4.0(eslint@9.0.0-rc.0)(typescript@5.4.3)
 
   packages/commitlint-config:
     dependencies:
@@ -847,7 +850,6 @@ packages:
       typescript: 5.4.3
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /@typescript-eslint/parser@7.4.0(eslint@9.0.0-rc.0)(typescript@5.4.3):
     resolution: {integrity: sha512-ZvKHxHLusweEUVwrGRXXUVzFgnWhigo4JurEj0dGF1tbcGh6buL+ejDdjxOQxv6ytcY1uhun1p2sm8iWStlgLQ==}
@@ -868,7 +870,6 @@ packages:
       typescript: 5.4.3
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /@typescript-eslint/scope-manager@7.4.0:
     resolution: {integrity: sha512-68VqENG5HK27ypafqLVs8qO+RkNc7TezCduYrx8YJpXq2QGZ30vmNZGJJJC48+MVn4G2dCV8m5ZTVnzRexTVtw==}
@@ -895,7 +896,6 @@ packages:
       typescript: 5.4.3
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /@typescript-eslint/types@7.4.0:
     resolution: {integrity: sha512-mjQopsbffzJskos5B4HmbsadSJQWaRK0UxqQ7GuNA9Ga4bEKeiO6b2DnB6cM6bpc8lemaPseh0H9B/wyg+J7rw==}
@@ -3047,7 +3047,6 @@ packages:
       typescript: 5.4.3
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /typescript@5.4.3:
     resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
