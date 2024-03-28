@@ -17,6 +17,9 @@
     "commitlint",
     "commitlintrc"
   ],
+  "files": [
+    "index.d.ts"
+  ],
   "scripts": {
     "build": "rm -f index.d.ts && tsup",
     "prepublishOnly": "pnpm build"
