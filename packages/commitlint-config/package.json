@@ -18,7 +18,8 @@
     "commitlintrc"
   ],
   "files": [
-    "index.d.ts"
+    "index.d.ts",
+    "*.js"
   ],
   "scripts": {
     "build": "rm -f index.d.ts && tsup",
