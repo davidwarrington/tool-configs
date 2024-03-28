@@ -17,6 +17,9 @@
     "eslint",
     "eslintrc"
   ],
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "build": "tsup",
     "prepublishOnly": "pnpm build"
