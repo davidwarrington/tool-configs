@@ -17,6 +17,10 @@
     "prettier",
     "prettierrc"
   ],
+  "files": [
+    "index.d.ts",
+    "*.js"
+  ],
   "scripts": {
     "build": "rm -f index.d.ts && tsup",
     "prepublishOnly": "pnpm build"
