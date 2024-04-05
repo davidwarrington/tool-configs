@@ -25,19 +25,19 @@
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "@eslint/js": "9.0.0-rc.0",
-    "eslint-plugin-unicorn": "^51.0.1",
-    "typescript-eslint": "^7.4.0"
+    "@eslint/js": "^9.0.0",
+    "eslint-plugin-unicorn": "^52.0.0",
+    "typescript-eslint": "^7.5.0"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.5",
     "@types/eslint__js": "^8.42.3",
-    "@typescript-eslint/utils": "^7.4.0",
-    "eslint": "9.0.0-rc.0",
+    "@typescript-eslint/utils": "^7.5.0",
+    "eslint": "^9.0.0",
     "tsup": "^8.0.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   },
   "peerDependencies": {
-    "eslint": "9.0.0-rc.0"
+    "eslint": "^9.0.0"
   }
 }
