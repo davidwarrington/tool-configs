@@ -1,4 +1,5 @@
 import tseslint from 'typescript-eslint';
+import { concat, type FlatConfigItem } from 'eslint-flat-config-utils';
 import base from './base';
 
-export default tseslint.config(...base, ...tseslint.configs.recommended);
+export default concat(base, tseslint.configs.recommended as FlatConfigItem);

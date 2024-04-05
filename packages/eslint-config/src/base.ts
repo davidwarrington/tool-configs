@@ -1,9 +1,9 @@
 import js from '@eslint/js';
+import { concat } from 'eslint-flat-config-utils';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
-import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
-  js.configs.recommended,
+export default concat(
+  { ...js.configs.recommended },
   eslintPluginUnicorn.configs['flat/recommended'],
   {
     rules: {
