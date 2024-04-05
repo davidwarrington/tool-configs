@@ -14,11 +14,11 @@
     "@davidwarrington/commitlint-config": "workspace:*",
     "@davidwarrington/eslint-config": "workspace:*",
     "@davidwarrington/prettier-config": "workspace:*",
-    "eslint": "9.0.0-rc.0",
+    "eslint": "^9.0.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
-    "typescript-eslint": "^7.4.0"
+    "typescript-eslint": "^7.5.0"
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --check",
