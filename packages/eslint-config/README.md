@@ -17,7 +17,11 @@ Create an ESLint config
 ```js
 // eslint.config.js
 
-import config from '@davidwarrington/eslint-config';
+import configs from '@davidwarrington/eslint-config';
 
-export default [config];
+export default [
+  ...configs.typescript,
+  // or if using JS only
+  ...configs.base,
+];
 ```
