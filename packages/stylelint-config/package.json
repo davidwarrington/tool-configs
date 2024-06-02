@@ -8,6 +8,10 @@
       "default": "./index.js",
       "types": "./index.d.ts"
     },
+    "./bemit": {
+      "default": "./bemit/index.js",
+      "types": "./bemit/index.d.ts"
+    },
     "./scss": {
       "default": "./scss/index.js",
       "types": "./scss/index.d.ts"
