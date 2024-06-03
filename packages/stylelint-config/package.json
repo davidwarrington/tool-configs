@@ -8,6 +8,10 @@
       "default": "./index.js",
       "types": "./index.d.ts"
     },
+    "./bemit": {
+      "default": "./bemit/index.js",
+      "types": "./bemit/index.d.ts"
+    },
     "./scss": {
       "default": "./scss/index.js",
       "types": "./scss/index.d.ts"
@@ -33,7 +37,8 @@
   ],
   "scripts": {
     "build": "rm -f index.d.ts **/index.d.ts && tsup",
-    "prepublishOnly": "pnpm build"
+    "prepublishOnly": "pnpm build",
+    "test": "vitest"
   },
   "dependencies": {
     "stylelint-config-prettier-scss": "^1.0.0",
@@ -42,7 +47,9 @@
   },
   "devDependencies": {
     "stylelint": "^16.6.1",
-    "tsup": "^8.0.2"
+    "tsup": "^8.0.2",
+    "vitest": "^1.6.0",
+    "vitest-stylelint-utils": "^1.0.1"
   },
   "peerDependencies": {
     "stylelint": "^16.6.1"

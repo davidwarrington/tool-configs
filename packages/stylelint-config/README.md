@@ -12,12 +12,33 @@ yarn add --dev stylelint @davidwarrington/stylelint-config
 npm install --save-dev stylelint @davidwarrington/stylelint-config
 ```
 
-Create an Stylelint config
+Then create your stylelint config.
 
 ```js
 // stylelint.config.js
 
 export default {
-  extends: ['@davidwarrington/stylelint-config'],
+  extends: [
+    '@davidwarrington/stylelint-config',
+    // or if using SCSS
+    '@davidwarrington/stylelint-config/scss',
+  ],
+};
+```
+
+## Extra Configs
+
+### BEMIT
+
+Add the BEMIT config alongside others.
+
+```js
+// stylelint.config.js
+
+export default {
+  extends: [
+    // ...
+    '@davidwarrington/stylelint-config/bemit',
+  ],
 };
 ```
