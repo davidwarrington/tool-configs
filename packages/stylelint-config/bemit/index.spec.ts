@@ -15,8 +15,7 @@ const selectors = {
     '.c-site-header',
     '.c-site-header__interior',
     '.c-site-header--fixed',
-    // eslint-disable-next-line unicorn/prefer-string-raw
-    '.c-site-header--fixed\\\\@md',
+    String.raw`.c-site-header--fixed\\@md`,
     '.u-bg-tomato',
     '.u-max-w-prose',
   ],
