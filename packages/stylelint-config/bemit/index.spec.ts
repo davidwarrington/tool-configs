@@ -43,17 +43,3 @@ testRule({
     };
   }),
 });
-
-// describe('bemit/selector-class-pattern', () => {
-//   it('selector-class-pattern', async () => {
-//     const code = `.o-layout {}`;
-//     const output = await lint({
-//       code,
-//       config,
-//     });
-
-//     expect(output.results[0].warnings).toEqual([]);
-//     expect(output.results[0].parseErrors).toEqual([]);
-//     expect(output.results[0].invalidOptionWarnings).toEqual([]);
-//   });
-// });
