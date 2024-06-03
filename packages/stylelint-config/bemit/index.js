@@ -1,1 +1,1 @@
-export { default } from './stylelint.config';
+export { default } from './stylelint.config.js';
