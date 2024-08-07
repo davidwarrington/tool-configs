@@ -1,28 +1,11 @@
 // @ts-check
 
-/** @typedef {import('prettier').Config} Config */
-/** @typedef {NonNullable<Config['overrides']>[number]} ConfigOverride */
+import { defineConfig, requireOptIn } from './utils/index.js';
 
-/** @satisfies {Config} */
-const config = {
+export default defineConfig({
   arrowParens: 'avoid',
   semi: true,
   singleQuote: true,
 
   overrides: [requireOptIn(['pnpm-lock.yaml'])],
-};
-
-export default config;
-
-/** @param {ConfigOverride['files']} files */
-function requireOptIn(files) {
-  /** @satisfies {ConfigOverride} */
-  const override = {
-    files,
-    options: {
-      requirePragma: true,
-    },
-  };
-
-  return override;
-}
+});
