@@ -1,1 +1,8 @@
-export { default } from '@davidwarrington/prettier-config';
+// @ts-check
+
+import baseConfig from '@davidwarrington/prettier-config';
+import { defineConfig } from '@davidwarrington/prettier-config/utils';
+
+export default defineConfig({
+  ...baseConfig,
+});
