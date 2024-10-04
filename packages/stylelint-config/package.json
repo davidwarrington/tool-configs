@@ -46,12 +46,12 @@
     "stylelint-config-standard-scss": "^13.1.0"
   },
   "devDependencies": {
-    "stylelint": "^16.8.1",
-    "tsup": "^8.2.4",
-    "vitest": "^2.0.5",
+    "stylelint": "^16.9.0",
+    "tsup": "^8.3.0",
+    "vitest": "^2.1.2",
     "vitest-stylelint-utils": "^1.0.1"
   },
   "peerDependencies": {
-    "stylelint": "^16.8.1"
+    "stylelint": "^16.9.0"
   }
 }
