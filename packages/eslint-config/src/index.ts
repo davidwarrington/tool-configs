@@ -1,10 +1,7 @@
 import type { TSESLint } from '@typescript-eslint/utils';
-import base from './base';
-import typescript from './typescript';
+import baseConfig from './base';
+import typescriptConfig from './typescript';
 
-type Configs = Record<string, TSESLint.FlatConfig.ConfigFile>;
-
-export default {
-  base,
-  typescript,
-} satisfies Configs;
+export const base = baseConfig satisfies TSESLint.FlatConfig.ConfigFile;
+export const typescript =
+  typescriptConfig satisfies TSESLint.FlatConfig.ConfigFile;
