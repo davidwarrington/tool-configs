@@ -26,14 +26,14 @@
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^19.2.2"
+    "@commitlint/config-conventional": "^19.5.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/types": "^19.0.3",
-    "tsup": "^8.2.4"
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/types": "^19.5.0",
+    "tsup": "^8.3.0"
   },
   "peerDependencies": {
-    "@commitlint/cli": "^19.3.0"
+    "@commitlint/cli": "^19.5.0"
   }
 }
