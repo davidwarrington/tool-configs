@@ -16,7 +16,9 @@ export default tseslint.config(
         'error',
         {
           replacements: {
+            args: false,
             db: false,
+            docs: false,
             env: false,
             props: false,
             src: false,
