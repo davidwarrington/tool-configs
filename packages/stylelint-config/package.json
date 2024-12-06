@@ -52,6 +52,6 @@
     "vitest-stylelint-utils": "^1.0.1"
   },
   "peerDependencies": {
-    "stylelint": "^16.9.0"
+    "stylelint": "^16.11.0"
   }
 }
