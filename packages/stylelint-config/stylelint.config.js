@@ -24,6 +24,12 @@ const config = {
         ignoreShorthands: [/.*-block/, /.*-inline/],
       },
     ],
+    'value-keyword-case': [
+      'lower',
+      {
+        camelCaseSvgKeywords: true,
+      },
+    ],
   },
 };
 
