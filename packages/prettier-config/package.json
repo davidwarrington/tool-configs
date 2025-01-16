@@ -35,6 +35,9 @@
     "build": "rm -f index.d.ts && tsup",
     "prepublishOnly": "pnpm build"
   },
+  "dependencies": {
+    "prettier-plugin-sort-json": "^4.1.1"
+  },
   "devDependencies": {
     "prettier": "^3.4.2",
     "tsup": "^8.3.6"

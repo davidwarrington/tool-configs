@@ -81,6 +81,10 @@ importers:
         version: 5.7.3
 
   packages/prettier-config:
+    dependencies:
+      prettier-plugin-sort-json:
+        specifier: ^4.1.1
+        version: 4.1.1(prettier@3.4.2)
     devDependencies:
       prettier:
         specifier: ^3.4.2
@@ -1664,6 +1668,12 @@ packages:
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+
+  prettier-plugin-sort-json@4.1.1:
+    resolution: {integrity: sha512-uJ49wCzwJ/foKKV4tIPxqi4jFFvwUzw4oACMRG2dcmDhBKrxBv0L2wSKkAqHCmxKCvj0xcCZS4jO2kSJO/tRJw==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      prettier: ^3.0.0
 
   prettier@3.4.2:
     resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
@@ -3631,6 +3641,10 @@ snapshots:
       source-map-js: 1.2.1
 
   prelude-ls@1.2.1: {}
+
+  prettier-plugin-sort-json@4.1.1(prettier@3.4.2):
+    dependencies:
+      prettier: 3.4.2
 
   prettier@3.4.2: {}
 
