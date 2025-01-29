@@ -24,6 +24,18 @@ const config = {
         ignoreShorthands: [/.*-block/, /.*-inline/],
       },
     ],
+    /**
+     * @note shout out to Roma Komarov for this suggestion
+     * https://blog.kizu.dev/never-use-overflow-scroll/
+     */
+    'declaration-property-value-disallowed-list': [
+      {
+        '/^overflow(-(x|y|inline|block))?$/i': /\bscroll\b/i,
+      },
+      {
+        message: () => `"auto" should be used instead of "scroll"`,
+      },
+    ],
     'value-keyword-case': [
       'lower',
       {
