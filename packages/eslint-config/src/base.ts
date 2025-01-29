@@ -27,4 +27,11 @@ export default tseslint.config(
       ],
     },
   },
+  {
+    linterOptions: {
+      reportUnusedDisableDirectives: 'error',
+      // @ts-expect-error flag is not yet supported by typescript-eslint
+      reportUnusedInlineConfigs: 'error',
+    },
+  },
 );
