@@ -1,6 +1,6 @@
 {
   "name": "@davidwarrington/prettier-config",
-  "version": "2.1.5",
+  "version": "2.2.0",
   "main": "index.js",
   "types": "index.d.ts",
   "type": "module",
