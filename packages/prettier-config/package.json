@@ -9,6 +9,10 @@
       "default": "./index.js",
       "types": "./index.d.ts"
     },
+    "./experiments": {
+      "import": "./experiments/index.js",
+      "types": "./experiments/index.d.ts"
+    },
     "./utils": {
       "import": "./utils/index.js",
       "types": "./utils/index.d.ts"
