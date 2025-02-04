@@ -4,5 +4,5 @@ import { typescript } from '@davidwarrington/eslint-config';
 import { config } from 'typescript-eslint';
 
 export default config(...typescript, {
-  ignores: ['**/dist'],
+  ignores: ['**/dist', 'packages/stylelint-config/**/index.d.ts'],
 });
