@@ -1,7 +1,5 @@
 // @ts-check
 
-import { defineConfig } from '../utils/index.js';
-
 /** @param {string} glob */
 export function sortJson(glob) {
   /** @satisfies {ConfigOverride} */
@@ -19,9 +17,7 @@ export function sortJson(glob) {
 }
 
 export function shopifyOverrides({ locales = 'locales/*.json' } = {}) {
-  return defineConfig({
-    overrides: [sortJson(locales)],
-  });
+  return [sortJson(locales)];
 }
 
 /** @import { Config } from 'prettier' */
