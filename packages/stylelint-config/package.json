@@ -5,16 +5,16 @@
   "types": "index.d.ts",
   "exports": {
     ".": {
-      "default": "./index.js",
-      "types": "./index.d.ts"
+      "types": "./index.d.ts",
+      "default": "./index.js"
     },
     "./bemit": {
-      "default": "./bemit/index.js",
-      "types": "./bemit/index.d.ts"
+      "types": "./bemit/index.d.ts",
+      "default": "./bemit/index.js"
     },
     "./scss": {
-      "default": "./scss/index.js",
-      "types": "./scss/index.d.ts"
+      "types": "./scss/index.d.ts",
+      "default": "./scss/index.js"
     }
   },
   "type": "module",
