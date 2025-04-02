@@ -4,7 +4,7 @@ import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
   js.configs.recommended,
-  eslintPluginUnicorn.configs['flat/recommended'],
+  eslintPluginUnicorn.configs.recommended,
   {
     rules: {
       'unicorn/import-style': 'off',
@@ -30,7 +30,6 @@ export default tseslint.config(
   {
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
-      // @ts-expect-error flag is not yet supported by typescript-eslint
       reportUnusedInlineConfigs: 'error',
     },
   },

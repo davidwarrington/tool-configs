@@ -6,16 +6,16 @@
   "type": "module",
   "exports": {
     ".": {
-      "default": "./index.js",
-      "types": "./index.d.ts"
+      "types": "./index.d.ts",
+      "default": "./index.js"
     },
     "./experiments": {
-      "import": "./experiments/index.js",
-      "types": "./experiments/index.d.ts"
+      "types": "./experiments/index.d.ts",
+      "import": "./experiments/index.js"
     },
     "./utils": {
-      "import": "./utils/index.js",
-      "types": "./utils/index.d.ts"
+      "types": "./utils/index.d.ts",
+      "import": "./utils/index.js"
     }
   },
   "license": "MIT",
