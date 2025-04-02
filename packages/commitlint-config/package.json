@@ -1,13 +1,17 @@
 {
   "name": "@davidwarrington/commitlint-config",
   "version": "2.1.7",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidwarrington/tool-configs",
+    "url": "git+https://github.com/davidwarrington/tool-configs.git",
     "directory": "packages/commitlint-config"
   },
   "bugs": {
