@@ -40,16 +40,16 @@
   },
   "dependencies": {
     "stylelint-config-prettier-scss": "^1.0.0",
-    "stylelint-config-standard": "^37.0.0",
-    "stylelint-config-standard-scss": "^14.0.0"
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-config-standard-scss": "^15.0.1"
   },
   "devDependencies": {
-    "stylelint": "^16.17.0",
-    "tsup": "^8.4.0",
-    "vitest": "^3.1.1",
+    "stylelint": "^16.20.0",
+    "tsup": "^8.5.0",
+    "vitest": "^3.2.1",
     "vitest-stylelint-utils": "^1.1.0"
   },
   "peerDependencies": {
-    "stylelint": "^16.17.0"
+    "stylelint": "^16.20.0"
   }
 }
