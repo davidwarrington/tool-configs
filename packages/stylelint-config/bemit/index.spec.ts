@@ -1,12 +1,7 @@
-import { describe, expect, it } from 'vitest';
 import { getTestRule } from 'vitest-stylelint-utils';
 import config from './stylelint.config';
 
-const testRule = getTestRule({
-  describe,
-  expect,
-  it,
-});
+const testRule = getTestRule();
 
 const ruleName = 'selector-class-pattern';
 const selectors = {
