@@ -1,11 +1,45 @@
 import js from '@eslint/js';
 import { defineConfig } from 'eslint/config';
-import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+import { importX } from 'eslint-plugin-import-x';
+import unicorn from 'eslint-plugin-unicorn';
 
 export default defineConfig(
   js.configs.recommended,
-  eslintPluginUnicorn.configs.recommended,
+  unicorn.configs.recommended,
+  // @ts-expect-error outdated type
+  importX.flatConfigs.recommended,
+
   {
+    name: 'import-x-rules',
+    rules: {
+      'import-x/order': [
+        'error',
+        {
+          alphabetize: {
+            caseInsensitive: true,
+            order: 'asc',
+            orderImportKind: 'asc',
+          },
+          groups: [
+            'builtin',
+            'external',
+            'internal',
+            'parent',
+            'sibling',
+            'index',
+            'object',
+          ],
+          named: {
+            enabled: true,
+            types: 'types-last',
+          },
+        },
+      ],
+    },
+  },
+
+  {
+    name: 'unicorn-rules',
     rules: {
       'unicorn/import-style': 'off',
       'unicorn/no-array-callback-reference': 'off',
@@ -29,7 +63,9 @@ export default defineConfig(
       ],
     },
   },
+
   {
+    name: 'settings',
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
       reportUnusedInlineConfigs: 'error',
