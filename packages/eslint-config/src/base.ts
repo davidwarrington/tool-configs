@@ -22,8 +22,11 @@ export default defineConfig(
           },
           groups: [
             'builtin',
-            'external',
-            'internal',
+            /**
+             * @note I _think_ I only use "internal" imports for packages in monorepos,
+             * in which case I want them to be alongside grouped with external packages
+             */
+            ['external', 'internal'],
             'parent',
             'sibling',
             'index',
