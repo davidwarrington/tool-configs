@@ -1,2 +1,2 @@
-export { default as base } from './base';
-export { default as typescript } from './typescript';
+export { base } from './base';
+export { typescript } from './typescript';

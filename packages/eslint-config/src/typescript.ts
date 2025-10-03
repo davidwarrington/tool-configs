@@ -1,11 +1,12 @@
+import type { ConfigObject as Config } from '@eslint/core';
 import * as tsParser from '@typescript-eslint/parser';
 import { defineConfig } from 'eslint/config';
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import { importX } from 'eslint-plugin-import-x';
 import tseslint from 'typescript-eslint';
-import base from './base';
+import { base } from './base';
 
-export default defineConfig(
+export const typescript: Config[] = defineConfig(
   base,
   // eslint-disable-next-line import-x/no-named-as-default-member
   tseslint.configs.recommended,

@@ -1,9 +1,10 @@
+import type { ConfigObject as Config } from '@eslint/core';
 import js from '@eslint/js';
 import { defineConfig } from 'eslint/config';
 import { importX } from 'eslint-plugin-import-x';
 import unicorn from 'eslint-plugin-unicorn';
 
-export default defineConfig(
+export const base: Config[] = defineConfig(
   js.configs.recommended,
   unicorn.configs.recommended,
   // @ts-expect-error outdated type
