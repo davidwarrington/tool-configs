@@ -46,7 +46,7 @@
   "devDependencies": {
     "stylelint": "^16.26.1",
     "tsup": "^8.5.1",
-    "vitest": "^4.0.15",
+    "vitest": "^4.0.16",
     "vitest-stylelint-utils": "^2.0.0"
   },
   "peerDependencies": {
