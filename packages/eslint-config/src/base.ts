@@ -3,6 +3,7 @@ import js from '@eslint/js';
 import { defineConfig } from 'eslint/config';
 import { importX } from 'eslint-plugin-import-x';
 import unicorn from 'eslint-plugin-unicorn';
+import { preventAbbreviationsConfig } from './rule-configs/prevent-abbreviations';
 
 export const base: Config[] = defineConfig(
   js.configs.recommended,
@@ -50,21 +51,7 @@ export const base: Config[] = defineConfig(
       'unicorn/no-array-for-each': 'off',
       'unicorn/no-array-reduce': 'off',
       'unicorn/prefer-switch': 'off',
-      'unicorn/prevent-abbreviations': [
-        'error',
-        {
-          replacements: {
-            args: false,
-            db: false,
-            docs: false,
-            dist: false,
-            env: false,
-            params: false,
-            props: false,
-            src: false,
-          },
-        },
-      ],
+      'unicorn/prevent-abbreviations': ['error', preventAbbreviationsConfig],
     },
   },
 

@@ -5,6 +5,10 @@
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
+    },
+    "./rule-configs/*": {
+      "types": "./dist/rule-configs/*.d.ts",
+      "default": "./dist/rule-configs/*.js"
     }
   },
   "type": "module",
