@@ -25,7 +25,7 @@ export const base: Config[] = defineConfig(
             'builtin',
             /**
              * @note I _think_ I only use "internal" imports for packages in monorepos,
-             * in which case I want them to be alongside grouped with external packages
+             * in which case I want them to be grouped alongside external imports
              */
             ['external', 'internal'],
             'parent',
