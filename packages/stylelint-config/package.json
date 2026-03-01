@@ -1,6 +1,6 @@
 {
   "name": "@davidwarrington/stylelint-config",
-  "version": "2.4.6",
+  "version": "2.4.7",
   "exports": {
     ".": {
       "types": "./index.d.ts",
