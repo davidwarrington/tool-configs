@@ -10,7 +10,6 @@ export const typescript: Config[] = defineConfig(
   base,
   // eslint-disable-next-line import-x/no-named-as-default-member
   tseslint.configs.recommended,
-  // @ts-expect-error outdated types
   importX.flatConfigs.typescript,
 
   {

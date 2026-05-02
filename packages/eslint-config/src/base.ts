@@ -8,7 +8,6 @@ import { preventAbbreviationsConfig } from './rule-configs/prevent-abbreviations
 export const base: Config[] = defineConfig(
   js.configs.recommended,
   unicorn.configs.recommended,
-  // @ts-expect-error outdated type
   importX.flatConfigs.recommended,
 
   {
