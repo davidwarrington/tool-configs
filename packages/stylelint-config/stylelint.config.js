@@ -18,7 +18,6 @@ const config = {
           `Expected custom media query name "${name}" to be kebab-case`,
       },
     ],
-    // eslint-disable-next-line unicorn/no-null
     'declaration-block-no-redundant-longhand-properties': null,
     /**
      * @note shout out to Roma Komarov for this suggestion

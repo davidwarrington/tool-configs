@@ -34,7 +34,7 @@ testRule({
   reject: selectors.fail.map(selector => {
     return {
       code: `${selector} {}`,
-      message: `Expected "${selector}" to match pattern "^(o|c|u)-[a-z]+(-[a-z0-9]+)*(__[a-z0-9]+(-[a-z0-9]+)*)?(--[a-z0-9]+(-[a-z0-9]+)*)?(\\\\@[a-z]+)?$" (selector-class-pattern)`,
+      message: String.raw`Expected "${selector}" to match pattern "^(o|c|u)-[a-z]+(-[a-z0-9]+)*(__[a-z0-9]+(-[a-z0-9]+)*)?(--[a-z0-9]+(-[a-z0-9]+)*)?(\\@[a-z]+)?$" (selector-class-pattern)`,
     };
   }),
 });

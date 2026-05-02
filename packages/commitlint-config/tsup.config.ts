@@ -4,6 +4,7 @@ export default defineConfig({
   dts: {
     compilerOptions: {
       allowJs: true,
+      ignoreDeprecations: '6.0',
       module: 'esnext',
       moduleResolution: 'bundler',
     },
