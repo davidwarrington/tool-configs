@@ -1,6 +1,6 @@
 {
   "name": "@davidwarrington/commitlint-config",
-  "version": "2.1.13",
+  "version": "2.1.14",
   "exports": {
     ".": {
       "types": "./index.d.ts",
