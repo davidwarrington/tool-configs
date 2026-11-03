@@ -1,6 +1,6 @@
 {
   "name": "@davidwarrington/eslint-config",
-  "version": "2.7.4",
+  "version": "2.7.5",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
