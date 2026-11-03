@@ -11,21 +11,16 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.2.1",
+    "@commitlint/cli": "^21.2.4",
     "@davidwarrington/commitlint-config": "workspace:*",
     "@davidwarrington/eslint-config": "workspace:*",
     "@davidwarrington/prettier-config": "workspace:*",
-    "eslint": "^10.8.1",
+    "eslint": "^10.14.0",
     "husky": "^9.1.7",
-    "lint-staged": "^17.3.0",
-    "prettier": "^3.9.6",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.10",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.67.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "typescript": "^6.0.3"
-    }
+    "typescript-eslint": "^8.72.1"
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --check",

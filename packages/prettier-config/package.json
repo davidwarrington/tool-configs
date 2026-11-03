@@ -41,10 +41,10 @@
     "prettier-plugin-sort-json": "^4.2.0"
   },
   "devDependencies": {
-    "prettier": "^3.9.6",
-    "tsup": "^8.5.1"
+    "prettier": "^3.9.10",
+    "tsup": "^9.0.0"
   },
   "peerDependencies": {
-    "prettier": "^3.9.6"
+    "prettier": "^3.9.10"
   }
 }
